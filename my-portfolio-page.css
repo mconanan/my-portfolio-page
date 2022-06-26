@@ -1,0 +1,185 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* how come when screen size is adjusted, h1 moves independently from rest of header? */
+.header {
+    position: relative;
+    padding: 100px;
+    background-color: #e9c664;
+}
+
+.madeleine {
+    font-size: 72px;
+    box-shadow: 5px 10px 5px black;
+    background-color: #264653;
+    border: 5px solid #e9d8a6;
+    border-radius: 10px;
+    color: #e9d8a6;
+    margin: 0px;
+    position: absolute;
+    top: 75px;
+    left: 25px;
+
+}
+
+
+h2 {
+    display: none;
+    position: absolute;
+    top: 175px;
+    left: 50px;
+} 
+
+h1:hover + h2 {
+    display:block;
+}
+
+
+.surfboards {
+    margin:auto;
+    width: 80%;
+    border: solid 10px;
+    border-color: #e9d8a6; 
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.contact-link {
+    font-size: 32px;
+    box-shadow: 5px 10px 5px black;
+    background-color: #264653;
+    border: solid 5px #e9d8a6;
+    border-radius: 10px;
+    color: #e9d8a6;
+    padding: 25px;
+    text-align:center;
+    text-decoration: none;
+    position: absolute;
+    bottom: 75px;
+    right: 200px;
+}
+
+.contact-link:hover, contact-link:active {
+    background-color: #2a9d84;
+}   
+
+.github {
+    font-size: 32px;
+    box-shadow: 5px 10px 5px black;
+    background-color: #264653;
+    border: solid 5px #e9d8a6;
+    border-radius: 10px;
+    color: #e9d8a6;
+    padding: 25px;
+    text-align:center;
+    text-decoration: none;
+    position: absolute;
+    bottom: 75px;
+    right: 390px;
+}
+
+.github:hover, contact-link:active {
+    background-color:#2a9d84
+}
+
+.linkedin {
+    font-size: 32px;
+    box-shadow: 5px 10px 5px black;
+    background-color: #264653;
+    border: solid 5px #e9d8a6;
+    border-radius: 10px;
+    color: #e9d8a6;
+    padding: 25px;
+    text-align:center;
+    text-decoration: none;
+    position: absolute;
+    bottom: 75px;
+    right: 600px;
+}
+
+.linkedin:hover, contact-link:active {
+    background-color:#2a9d84
+}
+
+
+.bottom-half {
+    background-color: #e9c664;
+    margin-top: 0;
+    padding: 25px;
+    position:relative;
+    display: flex; 
+}
+
+h2, p {
+    text-align: center;
+}
+
+.projects-box {
+    background-color: #e9d8a6;
+    width: 50%;
+    margin-left: 20px;
+    margin-right: 5%;
+    padding: 10px;
+    float: left;
+}
+
+.landing-page-thumbnail {
+    display:flex;
+    position: relative;
+    margin: auto;
+    display:block;
+    box-shadow: 5px 10px 5px grey;
+}
+
+.landing-page-thumbnail:hover, contact-link:active {
+    border:#264653 solid 5px;
+}
+
+.coming-soon-thumbnail {
+    display: flex;
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    box-shadow: 5px 10px 5px grey;
+}
+
+.about-me {
+    background-color: #e9d8a6;
+    float: right;
+    margin-right: 20px;
+    margin-left: 5%;
+    width: 50%;
+    padding: 10px;
+    position: relative;
+}
+
+.about-me-p {
+    text-indent: 5%;
+}
+
+.profile-photo {
+   display: flex;
+   position: relative;
+   margin: auto;
+   display: block;
+}
+
+.footer {
+    background-color: #e9c664;
+    text-align: center;
+    padding-top: 10%;
+}
+
+
+@media screen and (max-width: 786px)
+    {
+        .madeleine { font-size:32px;
+
+    }}
+
+@media screen and (max-width:500px) {
+    *{flex-direction: column;
+}}

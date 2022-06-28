@@ -16,3 +16,6 @@ There is a footer at the bottom of the page that states the year the webpage was
 The footer also includes a link back to the top of the page. 
 
 Media queries have been applied so that the webpage can be re-sized, and can be viewed from multiple devices. 
+
+Link to deployed webpage https://mconanan.github.io/my-portfolio-page/
+Link to repository https://github.com/mconanan/my-portfolio-page
